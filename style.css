@@ -1,0 +1,99 @@
+body{
+    background-color: rgb(253, 238, 246);
+}
+.container{
+    width: 654px;
+    height: 490px;
+    margin: 50px auto;
+    border-radius: 7px 7px 7px 7px;
+}
+.product-img{
+    background-image: url(image-product-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 327px;
+    height:530px;
+    float: left;
+    border-radius: 7px 0 0 7px; 
+}
+.product-info{
+    float: left;
+    background-color: #ffff;
+    width: 327px;
+    height: 530px;
+    margin-left: -42px;
+    border-radius: 0 7px 10px 7px;
+}
+.product-text{
+    width: 327px;
+}
+.product-text h2{
+    margin:  38px;
+    line-height: 1.7em;
+    font-weight: lighter;
+    color:#8d8d8d
+}
+.product-text h1{
+    font-size: 38px;
+    margin: -10px 38px;
+}
+.product-text p{
+    height: 125px;
+    margin: 20px  38px;
+    line-height: 1.7em;
+    font-size: 15px;
+    font-weight: lighter;
+    overflow: hidden;
+    color:#8d8d8d;
+}
+.product-Price-btn #prix{
+    float: right;
+    margin:-30px 10px;
+    color: #8d8d8d;
+    text-decoration: line-through;
+}
+.product-Price-btn #prix2{
+   font-size: 28px;
+   color:#474747 ;
+   margin-left: 25px ;
+   margin-top: -15px;
+   font-weight: lighter;
+   height: 50px;
+   display: inline-block;
+}
+.product-Price-btn button{
+    border-radius:15px ;
+    width:188px ;
+    height: 50px;
+    background-color:#2ab08a ;
+    color:#ffff ;
+    margin: -80px 40px 0 60px;
+   border: transparent;
+   text-transform: uppercase;
+}
+.product-Price-btn button:hover{
+    background: #79b0a1;
+}
+@media(max-width:500px){
+   
+    .container{
+        height: 110vh;
+        width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .product-info{
+        width: 300px;
+        margin-left: 1px;
+        height: 100vh;
+    }
+    .product-img{
+        border-radius: 7px 7px 7px 7px; 
+        background-size: cover;
+        width:300px;
+        height: 40vh;
+
+    }
+}
